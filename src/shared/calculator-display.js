@@ -12,6 +12,7 @@ function CalculatorDisplay({value, ...props}) {
   return (
     <div
       {...props}
+      // eslint-disable-next-line react/no-unknown-property
       css={{
         position: 'relative',
         color: 'white',
